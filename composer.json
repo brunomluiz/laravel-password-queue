@@ -9,5 +9,9 @@
             "email": "brunoluiz7@gmail.com"
         }
     ],
-    "require": {}
+    "autoload":{
+        "psr-4":{
+            "Brunomluiz\\LaravelPasswordQueue\\": "src/"
+        }
+    }
 }
