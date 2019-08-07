@@ -1,0 +1,13 @@
+{
+    "name": "brunomluiz/laravel-password-queue",
+    "description": "Adiciona e-mail do esqueci minha senha na fila de Job do Laravel 5.1",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruno Martins",
+            "email": "brunoluiz7@gmail.com"
+        }
+    ],
+    "require": {}
+}
