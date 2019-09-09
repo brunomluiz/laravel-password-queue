@@ -15,6 +15,7 @@ class LaravelPasswordQueueServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $this->app->register('Brunomluiz\LaravelPasswordQueue\Providers\PasswordResetServiceProvider');
     }
 
     /**
