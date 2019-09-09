@@ -30,7 +30,7 @@ class PasswordBroker extends IlluminatePasswordBroker
         return $this->mailer->queue($view, compact('token', 'user'), function ($m) use ($user, $token, $callback) {
             $m->to($user->getEmailForPasswordReset());
 
-            if (! is_null($callback)) {
+            if ($callback !== null) {
                 call_user_func($callback, $m, $user, $token);
             }
         });

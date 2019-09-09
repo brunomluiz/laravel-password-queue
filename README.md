@@ -30,10 +30,10 @@ Registre o provider em **config/app.php**.
 ]
 ```
 
- ## Créditos
+## Créditos
+
+- [Bruno Martins](https://github.com/brunomluiz) (Developer)
  
- - [Bruno Martins](https://github.com/brunomluiz) (Developer) <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/brunomluiz?style=social">
+## License
  
- ## License
- 
- The MIT License (MIT). Please see [License File](https://github.com/brunomluiz/laravel-password-queue/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/brunomluiz/laravel-password-queue/blob/master/LICENSE) for more information.
